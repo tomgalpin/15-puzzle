@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="main.css">
+    <link rel='icon' href="assets/favicon.ico" type="image/x-icon" / >
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <div class="board" data-target="board"></div>
     <div class="side">
-      <div class="new-game">
+      <div class="new-game btn-container">
         <button name='new-game'>New Game</button>
       </div>
-      <div class="win-game">
+      <div class="win-game btn-container">
         <button name='win-game'>Simulate Win Game</button>
       </div>
-      <p class="score"><span data-target='score'>0</span> Moves</p>
-      <p class="win hidden"  data-target='win'>You Won!</p>
+      <p class="score game-data"><span data-target='score'>0</span> Moves</p>
+      <p class="win hidden game-data"  data-target='win'>You Won!</p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
 
