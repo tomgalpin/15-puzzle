@@ -15,9 +15,13 @@ https://tomgalpin.github.io/15-puzzle/index.html
 
 ## Structure
     .
-    ├── index.html 
-    ├── main.css
-    ├── main.js 
+    ├── index.html
+    ├── /styles
+    │     └── mains.css
+    ├── /js
+    │     └── mains.js
+    ├── /assets
+    │     └── favicon.ico
     └── README.md
 
 ## Run locally:
